@@ -1,0 +1,40 @@
+<!-- 
+CSS bahasa yang digunakn untuk memperbagus tampilan dari html (karena masih sangat sederhana)
+
+cara kerja CSS
+
+cara menggunakan CSS ada 3 
+1. dokumen css dan juga dokumen htmml dibuat secara terpisah ,kita kaitkan menggunkan tag link
+2. dookumen css di asumsikakn menjadi 1 bagian di dalam dokumen html // gunakan tag style
+3. menuliskan css di inner html (menulis css di dalam tag htlml)
+
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title></title>
+     <!-- memanggil dokumen css  -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <!-- style duah setara di dalam dokumen css  -->
+     <style type="text/css">
+       h1
+       {
+        color: red;
+       }  
+     </style>
+ </head>
+ <body>
+    <h1>Trkainit</h1>
+    <h2 id="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+    <h3 style="color: red;">Latihan</h3>
+
+    <h1>Hai</h1>
+ </body>
+ </html>

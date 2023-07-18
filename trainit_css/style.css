@@ -1,0 +1,21 @@
+/*
+cara pakai selector pda css 
+cara menggunakan selector
+1. menggunakan atribut classs  (.)
+rumus
+2. memgunakan atribut id (#)
+definisikan_selector nama_deklarasi{  property / apa yang dia  miliki : value /nilai nya ;  }
+
+*/
+.judul
+{
+/*warna text =  colo	*/
+	color: blue;
+	background-color: yellow;
+	text-align: center;
+}
+
+#paragraf
+{
+	font-size: 10px;
+}
